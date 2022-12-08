@@ -26,7 +26,6 @@ func nextRainDay(xDays int, cityName string) {
 	for i := xDays; i < 15; i++ {
 		item := getItem(i, cityName)
 
-		// fmt.Println(item)
 		if item.Chance > "50%" {
 			fmt.Println(item)
 			break
