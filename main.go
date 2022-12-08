@@ -1,5 +1,6 @@
 package main
 
 func main() {
-	WillItRain(7, "jerusalem")
+	//willItRain(7, "jerusalem")
+	nextRainDay(0, "jerusalem")
 }
